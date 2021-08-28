@@ -1,0 +1,5 @@
+name: 'Test Node.js version'
+description: 'Test Node.js version'
+runs:
+  using: 'node12'
+  main: 'index.js'
