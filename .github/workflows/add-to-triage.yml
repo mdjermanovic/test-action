@@ -14,3 +14,5 @@ jobs:
         with:
           project-url: https://github.com/users/mdjermanovic/projects/2
           github-token: ${{ secrets.PROJECT_BOT_TOKEN }}
+          labeled: "triage:no"
+          label-operator: NOT
